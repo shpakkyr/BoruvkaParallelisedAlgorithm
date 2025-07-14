@@ -72,7 +72,7 @@ The input file must be structured as follows:
 ```
 
 **Vertices Edges: serial_time - parallel_time**
-
+```bash
 5 7: 0 ms - 0 ms
 100 300: 0 ms - 0 ms
 10k 30k: 1 ms - 2 ms
@@ -92,6 +92,7 @@ With a larger difference between vertices and edges:
 4M 30M: 4648 ms - 2139 ms
 100k 20M: 812 ms - 355 ms
 100k 30M: 1226 ms - 517 ms
+```
 
 📈 Interpretation
 
