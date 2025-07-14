@@ -60,19 +60,18 @@ The input file must be structured as follows:
 ## 🚀 Usage Examples
 
 **Run single-threaded version:**
-
 ```bash
 ./SemestralWork -f data/input.txt -a serial
-
+```
 
 ---
 
 **Run multi-threaded version with 4 threads:**
-
 ```bash
 ./SemestralWork -f input.txt -a parallel -t 4
+```
 
-Vertices Edges: serial_time - parallel_time
+**Vertices Edges: serial_time - parallel_time**
 
 5 7: 0 ms - 0 ms
 100 300: 0 ms - 0 ms
